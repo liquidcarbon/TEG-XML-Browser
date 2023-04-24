@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "TEG-XML-Browser"
+  site-url: "https://liquidcarbon.github.io/TEG-XML-Browser"
+  description: "Thermoelastography data browser"
+  repo-branch: main
+  repo-url: "https://github.com/liquidcarbon/TEG-XML-Browser"
