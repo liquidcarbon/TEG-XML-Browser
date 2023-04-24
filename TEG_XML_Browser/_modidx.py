@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://liquidcarbon.github.io',
                 'git_url': 'https://github.com/liquidcarbon/TEG-XML-Browser',
                 'lib_path': 'TEG_XML_Browser'},
-  'syms': {'TEG_XML_Browser.core': {'TEG_XML_Browser.core.foo': ('core.html#foo', 'TEG_XML_Browser/core.py')}}}
+  'syms': {}}
