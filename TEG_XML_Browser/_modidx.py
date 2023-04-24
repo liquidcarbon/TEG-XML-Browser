@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://liquidcarbon.github.io',
                 'git_url': 'https://github.com/liquidcarbon/TEG-XML-Browser',
                 'lib_path': 'TEG_XML_Browser'},
-  'syms': {}}
+  'syms': { 'TEG_XML_Browser.io': { 'TEG_XML_Browser.io.TEGXMLProcessor': ('teg_xml_parser.html#tegxmlprocessor', 'TEG_XML_Browser/io.py'),
+                                    'TEG_XML_Browser.io.TEGXMLProcessor.__init__': ( 'teg_xml_parser.html#tegxmlprocessor.__init__',
+                                                                                     'TEG_XML_Browser/io.py'),
+                                    'TEG_XML_Browser.io.TEGXMLProcessor.find_xml_offsets': ( 'teg_xml_parser.html#tegxmlprocessor.find_xml_offsets',
+                                                                                             'TEG_XML_Browser/io.py'),
+                                    'TEG_XML_Browser.io.TEGXMLProcessor.read_xml': ( 'teg_xml_parser.html#tegxmlprocessor.read_xml',
+                                                                                     'TEG_XML_Browser/io.py')}}}
