@@ -86,7 +86,7 @@ class TEGXMLProcessor:
             _to_parse = self.content[start:end]
         try:
             self.d = xmltodict.parse(
-                _to_parse,
+                _to_parse.decode("utf-8"),
                 attr_prefix="",
                 postprocessor=xml_unstringify,
             )
@@ -129,7 +129,7 @@ class TEGXMLProcessor:
 def unstringify(value):
     """Converts stringified numbers to integers or floats."""
     try:
-        value = ast.literal_eval(val)
+        value = ast.literal_eval(value)
     except:
         pass
     return value
