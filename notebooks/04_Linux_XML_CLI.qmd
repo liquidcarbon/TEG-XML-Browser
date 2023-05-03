@@ -1,0 +1,21 @@
+---
+title: "4. Linux CLI for working with TEG XML files"
+execute:
+  freeze: auto
+format:
+  html:
+    code-copy: true
+    code-fold: true
+jupyter: python3
+---
+
+# Linux on Windows
+
+Options: WSL; Cygwin; Git Bash.
+
+## Find and count files
+
+```{sh}
+FOLDER=/path/to/parent/folder
+find $FOLDER -type f -name '*.xml' | wc -l
+```
